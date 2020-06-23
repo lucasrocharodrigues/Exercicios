@@ -1,0 +1,91 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0D0902;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    background-color: #1C1306;
+    width: 441px;
+    height: 457px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 8px;
+    padding-bottom: 40px;
+    justify-content:space-between;
+}
+
+.titulo{
+    font-family: 'Metal Mania', cursive;
+    color: #8A6552;
+    font-size: 3em;
+    margin: 0;
+}
+
+.nome-campo{
+    color: #E6E6E6;
+    margin-bottom: 10px;
+}
+
+.botao-entrar{
+    color: #E6E6E6;
+    background-color: #8A6552;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.botao-cadastrar{
+    color: #E6E6E6;
+    background-color: #8A6552;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.texto{
+    color: #E6E6E6;
+    font-weight: 300;
+}
+
+#campo-email{
+    color: white;
+    outline: none;
+    background-color: #0D0902;
+    border: none;
+    border-radius:6px;
+}
+
+#campo-senha{
+    color: white;
+    outline: none;
+    background-color: #0D0902;
+    border: none;
+    border-radius:6px;
+}
+
+.campos-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.botao-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.campo{
+    height: 30px;
+}
